@@ -14,7 +14,6 @@ import Breadcrumbs from './helpers/Breadcrumbs';
 
 const Routes = () => (
   <div>
-    <Breadcrumbs />
     <Switch>
       <Route exact path="/" component={Landing} />
       <Route path="/start" component={Start} />

@@ -28,3 +28,7 @@ body {
   font-size: smaller;
   margin-top: 4vh;
 }
+
+.btn {
+  margin: 4px;
+}

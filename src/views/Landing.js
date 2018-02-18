@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from 'reactstrap';
+import { Link } from "react-router-dom";
 
 class Landing extends Component {
   render() {
@@ -11,7 +11,7 @@ class Landing extends Component {
           Please collect a voting token from the event organiser to start
           your session.
         </p>
-        <Button color="primary" size='lg' block>I've got my token!</Button>
+        <Link className="btn btn-primary btn-lg btn-block" to="/start">I&#39;ve got my token!</Link>
       </div>
     );
   }
