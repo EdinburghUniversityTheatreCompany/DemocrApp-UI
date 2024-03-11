@@ -1,4 +1,3 @@
-Sentry.init({ dsn: 'https://d6e4c11f6e97429da425d286c4670cd3@sentry.io/1297356' });
 var currentPage;
 var cast;
 var sessionState = "new";
